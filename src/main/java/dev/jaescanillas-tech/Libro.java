@@ -5,6 +5,8 @@ package dev.jaescanillas;
     la validación de stock y el control del prestamo del mismo
  */
 
+import javax.swing.table.DefaultTableColumnModel;
+
 public class Libro {
     private String title;
     private int year;
@@ -34,5 +36,28 @@ public class Libro {
 
     public void devolver(String fechaDevolucion){
 
+    }
+}
+
+public class Prestamo{
+    private Libro libro;
+    private String nombre;
+    private String fechaPrestamo;
+    private String fechaDevolucion;
+    private boolean devuelto;
+
+    public Prestamo(Libro libro, String nombre, String fechaPrestamo){
+        this.libro = libro;
+        this.nombre = nombre;
+        this.fechaPrestamo = fechaPrestamo;
+        this.fechaDevolucion = null;
+        this.devuelto = false;
+        this.libro.prestamo();
+    }
+
+    public void registrarDevolucion(String fecha){
+        this.fechaDevolucion = fecha;
+        this.devuelto = true;
+        this.libro.devolver();
     }
 }
