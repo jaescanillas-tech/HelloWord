@@ -35,5 +35,34 @@ public class Estudiante {
 }
 
 public class Curso{
+    private Integer cantidadAlumnos;
+    private String nombrecurso;
+    private Boolean paseo;
+    private String Alianza;
 
+    public Curso(){
+        this.cantidadAlumnos = 23;
+        this.nombrecurso = "4° Medio C";
+        this.paseo = true;
+        this.Alianza = "Roja";
+    }
+
+    public Curso(Integer cantidadAlumnos, String nombrecurso, Boolean paseo, String Alianza){
+        this.cantidadAlumnos = cantidadAlumnos;
+        this.nombrecurso = nombrecurso;
+        this.paseo = paseo;
+        this.Alianza = Alianza;
+    }
+
+    public boolean paseocurso(){
+        return true;
+    }
+
+    public boolean presentealumno(){
+        return true;
+    }
+
+    public boolean bailsecurso(){
+        return true;
+    }
 }
