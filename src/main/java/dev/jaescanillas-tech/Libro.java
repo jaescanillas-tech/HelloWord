@@ -5,8 +5,6 @@ package dev.jaescanillas;
     la validación de stock y el control del prestamo del mismo
  */
 
-import javax.swing.table.DefaultTableColumnModel;
-
 public class Libro {
     private String title;
     private int year;
@@ -19,6 +17,11 @@ public class Libro {
         this.author = "Stephen King";
         this.isbn = "";
     }
+
+    /*
+        Siempre arriba para crear un objeto (arriba del constructor)
+     */
+
     public Libro(String title, int year, String author, String isbn){
         this.title = title;
         this.year = year;
