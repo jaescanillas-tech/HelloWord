@@ -1,7 +1,5 @@
 package dev.jaescanillas_tech;
 
-import java.util.random.RandomGenerator;
-
 public class Paciente {
     private String run;
     private String nombre;
@@ -35,3 +33,4 @@ public class Paciente {
     }
 
 }
+
