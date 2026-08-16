@@ -1,5 +1,10 @@
 package dev.jaescanillas_tech;
 
+/*
+    se crea mascotas con el nombre de la mascota, el tipo de animal, la raza de esta y el peso el cual funciona
+    igual para la vacinacion o examenes
+ */
+
 public class Mascota {
     private String nombre;
     private String tipoAnimal;

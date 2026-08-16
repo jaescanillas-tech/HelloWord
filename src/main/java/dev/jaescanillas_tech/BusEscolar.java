@@ -1,5 +1,10 @@
 package dev.jaescanillas_tech;
 
+/*
+    Se crea clase objeto de bus escolar, dejando como atributos la patente, el conductor del bus
+    el destinatario y la capacidad de alumnos que puede llevar dependiendo del bus
+ */
+
 public class BusEscolar {
     private String patente;
     private String conductor;

@@ -1,5 +1,10 @@
 package dev.jaescanillas_tech;
 
+/*
+    pedido de delibery el cual se identifica con el id del pedido, el cliente, el estado del pedido
+    el total del pedido a pagar, con el metodo de entraga del pedido, la informacion de este.
+ */
+
 public class PedidoDelibery {
     private int Id;
     private String cliente;

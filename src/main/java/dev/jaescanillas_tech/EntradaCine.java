@@ -1,5 +1,11 @@
 package dev.jaescanillas_tech;
 
+/*
+    Entrada a un cine dejando la id de la entrada, el nombre del cliente con la fecha de la funcion
+    y el nombre de la pelicula, con funciones vacias desde comprar, la devolucion de la entrada y la
+    validacion de esta
+ */
+
 public class EntradaCine {
     private int id;
     private String cliente;

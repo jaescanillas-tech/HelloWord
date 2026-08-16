@@ -1,5 +1,10 @@
 package dev.jaescanillas_tech;
 
+/*
+    se crea cita medica con atrubitos de fecha, hora de la cita, el medico asignado y
+    el estado de atencion de el/la paciente
+ */
+
 public class CitaMedica {
     private String fecha;
     private String hora;

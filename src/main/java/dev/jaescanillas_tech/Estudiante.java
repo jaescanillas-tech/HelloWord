@@ -1,5 +1,9 @@
 package dev.jaescanillas_tech;
 
+/*
+    se creo estudiantes con su nombre completo, aparte de asignar un curso a este, aparte
+    se creo otro llamado curso donde esta la cantidad de alumnos, el curso en si y entre otras cosas
+ */
 
 public class Estudiante {
     private String Nombre;

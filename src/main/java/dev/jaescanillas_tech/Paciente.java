@@ -1,5 +1,10 @@
 package dev.jaescanillas_tech;
 
+/*
+    paciente registrado por rut, nombre completo, aparte de la atencion, la prioridad de atencion
+    la entrega de remedios.
+ */
+
 public class Paciente {
     private String run;
     private String nombre;
