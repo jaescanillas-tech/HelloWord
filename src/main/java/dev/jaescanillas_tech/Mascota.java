@@ -1,4 +1,4 @@
-package dev.jaescanillas;
+package dev.jaescanillas_tech;
 
 public class Mascota {
     private String nombre;

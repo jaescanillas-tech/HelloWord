@@ -1,4 +1,4 @@
-package dev.jaescanillas;
+package dev.jaescanillas_tech;
 
 /*
     Objeto creado de acuerdo al caso 3 de cuenta bancaria, contando con el numero de cuenta, el saldo y el tipo
@@ -25,15 +25,11 @@ public class CuentaBancaria {
         this.numerocuenta = numerocuenta;
     }
 
-    public Double deposit(Double saldo){
-        if (saldo != 0){
-            return true;
-        }else {
-            return false;
-        }
+    public void deposit(){
+
     }
 
-    public String MostrarSaldo(){
+    public void MostrarSaldo(){
 
     }
 

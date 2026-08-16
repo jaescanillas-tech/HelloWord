@@ -1,4 +1,4 @@
-package dev.jaescanillas;
+package dev.jaescanillas_tech;
 
 /*
     La creacion de producto con su verificacion de stock, precio y

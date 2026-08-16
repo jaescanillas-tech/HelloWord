@@ -1,4 +1,4 @@
-package dev.jaescanillas;
+package dev.jaescanillas_tech;
 
 /*
     Ejemplo profe sobre implementar clase basica en una entidad libro, dejando afuera
@@ -43,7 +43,7 @@ public class Libro {
 }
 
 public class Prestamo{
-    private Libro libro;
+    private final Libro libro;
     private String nombre;
     private String fechaPrestamo;
     private String fechaDevolucion;
